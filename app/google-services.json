@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413685073089",
+    "project_id": "alma-e750a",
+    "storage_bucket": "alma-e750a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413685073089:android:1db22f3d6e17bae03f8040",
+        "android_client_info": {
+          "package_name": "com.example.alma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413685073089-sgkpmk28b8eli60mhi4onbur33u0pvjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2l1Pk-R1DA7jiE2lkt3ri5Rp83lGiDgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413685073089-sgkpmk28b8eli60mhi4onbur33u0pvjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

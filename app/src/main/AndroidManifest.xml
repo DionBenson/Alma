@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alma">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Alma">
+        <activity android:name=".FirestoreClass"></activity>
+        <activity android:name=".DeveloperActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LoginActivity" />
+
+        <activity android:name=".RecommendationsActivity"
+            android:label="Recommendations">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".StartScreenActivity"/>
+        </activity>
+
+        <activity android:name=".FilmLogActivity"
+            android:label="Film Log"
+            android:launchMode="singleTop">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".StartScreenActivity"/>
+        </activity>
+
+        <activity android:name=".LogMovieActivity"
+            android:launchMode="singleTop">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".StartScreenActivity"/>
+        </activity>
+
+        <activity android:name=".StartScreenActivity" />
+
+        <activity android:name=".SignOrLogActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AddedMovieInfoActivity"
+            android:label="Film Details"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FilmLogActivity"/>
+        </activity>
+
+        <activity android:name=".MovieInfoActivity"
+            android:label="Film Details"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LogMovieActivity"/>
+        </activity>
+
+    </application>
+
+</manifest>
